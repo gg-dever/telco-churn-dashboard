@@ -34,3 +34,18 @@ Thumbs.db
 
 # Output that can be regenerated
 # Keep the charts and CSV exports for now
+
+# Personal working notes (not for public portfolio)
+first_thoughts.md
+critique.md
+project_guide.md
+risk_seg_results.md
+risk_segmentation_framework.md
+
+# Notebook working files
+notebooks/analysis_review.txt
+notebooks/create_simplified_html.py
+notebooks/extract_review.py
+notebooks/*_review.html
+notebooks/*_simplified.html
+notebooks/Analysis of data columns to identify ind
