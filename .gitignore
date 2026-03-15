@@ -1,0 +1,36 @@
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Data (keep the CSV but ignore any sensitive data if added later)
+# Uncomment if you have large data files
+# data/*.csv
+
+# Output that can be regenerated
+# Keep the charts and CSV exports for now
