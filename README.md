@@ -15,6 +15,23 @@ A comprehensive analysis of telecom customer churn, identifying key retention dr
 - **Value perception gap**: High-paying customers with low service adoption churn at 57.8%
 - **Risk framework** identifies 2,598 high-risk customers representing $100K+ monthly revenue exposure
 
+## 🚀 Interactive Dashboard
+
+**[Launch Live Demo →](https://YOUR-APP-NAME.streamlit.app)** *(Coming Soon)*
+
+Experience the analysis interactively! The Streamlit dashboard includes:
+
+- **📊 Overview**: Real-time metrics and key visualizations
+- **🎯 Risk Analyzer**: Filter customers by risk profile with dynamic charts
+- **🔮 Churn Predictor**: Enter customer details to predict churn risk
+- **💰 ROI Calculator**: Model retention campaign impact and financial projections
+
+To run locally:
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
 ## � Sample Visualizations
 
 ### Contract Type Impact on Churn
@@ -45,6 +62,10 @@ da_project_1/
 ├── output/
 │   ├── high_risk_customers.csv            # Actionable retention list
 │   └── charts/                            # All executive-ready visualizations
+├── .streamlit/
+│   └── config.toml                        # Streamlit theme configuration
+├── streamlit_app.py                       # 🚀 Interactive dashboard
+├── requirements.txt                       # Python dependencies
 ├── INTERVIEW_PREP.md                      # Talking points and Q&A prep
 ├── PROJECT_SUMMARY.md                     # One-page project overview
 └── README.md
@@ -105,8 +126,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ## 🛠️ Technical Stack
 
 - **Data Processing:** Pandas, NumPy
-- **Visualization:** Matplotlib, Seaborn
+- **Visualization:** Matplotlib, Seaborn, Plotly (interactive)
 - **Modeling:** Scikit-learn (Logistic Regression, Random Forest)
+- **Dashboard:** Streamlit
 - **Database:** SQLite for query validation
 
 ## 💡 Business Recommendations

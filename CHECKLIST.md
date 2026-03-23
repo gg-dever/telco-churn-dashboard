@@ -16,14 +16,32 @@ Use this checklist to ensure your project is 100% ready for job applications and
 - [x] .gitignore configured properly
 - [x] Images folder with key visualizations
 - [x] All files committed to git locally
+- [x] **Streamlit dashboard created** (`streamlit_app.py`)
+- [x] **requirements.txt** with all dependencies
+- [x] **Streamlit config files** (.streamlit/config.toml)
+- [x] **DASHBOARD_GUIDE.md** created
+- [x] **STREAMLIT_DEPLOYMENT.md** created
+- [x] **Dashboard tested locally** (runs on localhost:8501)
 
 ---
 
-## 🚀 GitHub Setup (Do This Next!)
+## 🚀 GitHub Setup (Do This Next!)streamlit, etc.)
+- [ ] Pin repository to your GitHub profile
+- [ ] Update README with your personal links (LinkedIn, email)
 
-- [ ] Create GitHub repository (public)
-- [ ] Add remote origin to local git
-- [ ] Push all files to GitHub
+**Instructions:** See `GITHUB_SETUP.md` for step-by-step guidance
+
+---
+
+## 🎯 Streamlit Cloud Deployment
+
+- [ ] Deploy dashboard to Streamlit Cloud
+- [ ] Test all 4 pages work on live URL
+- [ ] Update README with live dashboard link
+- [ ] Add dashboard URL to GitHub repo description
+- [ ] Test dashboard on mobile/tablet (responsive)
+
+**Instructions:** See `STREAMLIT_DEPLOYMENT.md` for detailed guid
 - [ ] Verify README displays correctly with images
 - [ ] Add repository topics/tags (data-analysis, python, machine-learning, etc.)
 - [ ] Pin repository to your GitHub profile
@@ -34,11 +52,13 @@ Use this checklist to ensure your project is 100% ready for job applications and
 ---
 
 ## 📝 Personal Information Updates
-
-- [ ] Add your GitHub username to README
-- [ ] Add your LinkedIn URL to README and PROJECT_SUMMARY
-- [ ] Add your email or portfolio website
-- [ ] Update git config with your actual email (if you used placeholder)
+ (includes dashboard mention)
+- [ ] Practice 5-minute project walkthrough with screen share
+- [ ] Review answers to common technical questions
+- [ ] **Practice demonstrating dashboard live** (filters, predictor, ROI calculator)
+- [ ] Prepare 2-3 questions to ask interviewers
+- [ ] Test HTML notebook link works for sharing
+- [ ] **Bookmark dashboard URL** for quick demo during interviews(if you used placeholder)
 
 ---
 
@@ -57,7 +77,7 @@ Use this checklist to ensure your project is 100% ready for job applications and
 ## 📊 Quality Checks
 
 - [ ] Run portfolio notebook end-to-end (no errors)
-- [ ] Run full notebook end-to-end (no errors) 
+- [ ] Run full notebook end-to-end (no errors)
 - [ ] All visualizations render correctly
 - [ ] No broken links in README
 - [ ] No typos in markdown cells or README
@@ -68,11 +88,13 @@ Use this checklist to ensure your project is 100% ready for job applications and
 ---
 
 ## 🎨 Optional Enhancements (Nice to Have)
-
-- [ ] Record 3-5 minute Loom video walkthrough
-- [ ] Create LinkedIn post announcing the project
-- [ ] Write Medium/blog post about the analysis
-- [ ] Create simple Tableau dashboard (if you know it)
+ (both repo AND dashboard)
+- [ ] **Add dashboard link to LinkedIn profile headline** (optional)
+- [ ] Prepare one-liner description for applications
+- [ ] Save HTML export for email attachments
+- [ ] Print PROJECT_SUMMARY.md as PDF for in-person interviews
+- [ ] Bookmark GitHub repo for quick access during calls
+- [ ] **Test dashboard works on recruiter's typical browsers** (Chrome, Safari)
 - [ ] Add project to personal portfolio website
 - [ ] Get feedback from 2-3 data professionals
 - [ ] Create a "lessons learned" section
@@ -162,7 +184,7 @@ Commit these to memory—you'll sound confident when you can cite them naturally
 
 ## ✨ You're Almost There!
 
-You've done the hard work—thorough analysis, clean code, clear documentation. 
+You've done the hard work—thorough analysis, clean code, clear documentation.
 
 All that's left is:
 1. Push to GitHub (10 minutes)

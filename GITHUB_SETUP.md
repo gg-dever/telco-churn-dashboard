@@ -198,7 +198,7 @@ https://github.com/YOUR-USERNAME/telco-churn-analysis
 
 ### In Applications/Emails
 ```
-"View my telco churn analysis project identifying $1.67M revenue exposure: 
+"View my telco churn analysis project identifying $1.67M revenue exposure:
 https://github.com/YOUR-USERNAME/telco-churn-analysis"
 ```
 
@@ -206,7 +206,7 @@ https://github.com/YOUR-USERNAME/telco-churn-analysis"
 ```
 🎯 Just completed a customer retention analysis project!
 
-Analyzed 7K+ telecom customer records and built a risk segmentation framework 
+Analyzed 7K+ telecom customer records and built a risk segmentation framework
 that identified $1.67M in annual revenue exposure.
 
 Key findings:
@@ -261,5 +261,5 @@ git commit -m "Remove large file from tracking"
 
 ---
 
-**Need Help?** 
+**Need Help?**
 If you encounter any issues pushing to GitHub, let me know and I can help troubleshoot!

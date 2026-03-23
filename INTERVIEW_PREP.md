@@ -14,7 +14,7 @@ I built a logistic regression model achieving 80% recall—meaning we catch 4 ou
 "The output is a risk segmentation framework that scores every customer 0-11 points and identifies 2,598 high-risk customers representing over $100K in monthly revenue exposure. I provided a prioritized customer list to the retention team with specific recommendations like contract conversion campaigns and early lifecycle check-ins."
 
 **Close (15 seconds):**
-"The analysis is fully reproducible, includes SQL validation for production deployment, and delivers both technical depth and business-ready visualizations."
+"The analysis is fully reproducible, includes SQL validation for production deployment, and I built an interactive Streamlit dashboard deployed to the cloud where stakeholders can explore the data, score new customers, and calculate retention campaign ROI."
 
 ---
 
@@ -179,6 +179,28 @@ I also learned that churn analysis is as much about operational implementation a
 "I use a decision matrix: business impact vs implementation effort. For this project, contract conversion campaigns scored high on both—clear ROI and easy to execute. Service bundle upsells scored medium on impact but higher on complexity because it requires product team coordination.
 
 I present all options ranked by expected value, but flag quick wins separately. The contract campaigns could start immediately while service bundling gets planned for Q2."
+
+---
+
+### Q: "Why did you build an interactive dashboard for this project?"
+**Answer:**
+"I wanted to demonstrate deployment skills beyond static analysis. The Jupyter notebook is great for technical review, but stakeholders often want to explore the data themselves—test different scenarios, filter customer segments, or calculate ROI for their specific campaign parameters.
+
+I built it with Streamlit because it's Python-native and deploys easily to the cloud. The dashboard has four sections: an executive overview with key metrics, a risk analyzer where you can filter customers by any combination of risk tier or characteristics, a churn predictor where you can input customer details and get instant risk scores, and an ROI calculator for modeling retention campaigns.
+
+It's hosted on Streamlit Cloud, so anyone with the link can use it without installing anything. This also shows I understand the full data science workflow: analysis → insights → deployment → stakeholder enablement."
+
+---
+
+### Q: "Walk me through the technical implementation of your dashboard"
+**Answer:**
+"I used Streamlit for the framework and Plotly for interactive visualizations. I structured it as a multi-page app with sidebar navigation.
+
+For performance, I cached the data loading function with `@st.cache_data` so the CSV only loads once, not on every interaction. The risk scoring logic is identical to what's in my notebook—I abstracted it into reusable functions so there's no code duplication.
+
+The ROI calculator was interesting to build because I needed to make financial projections dynamic. Users can adjust churn reduction expectations and cost per customer, and it recalculates net benefit, ROI, and even generates a sensitivity analysis showing how ROI changes across different churn reduction scenarios.
+
+I deployed it to Streamlit Cloud which handles the containerization automatically. The `requirements.txt` explicitly pins versions to ensure reproducibility."
 
 ---
 
