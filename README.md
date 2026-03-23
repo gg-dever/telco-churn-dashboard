@@ -1,31 +1,30 @@
-<<<<<<< HEAD
 # Telco Customer Churn Analysis
 
 A comprehensive analysis of telecom customer churn, identifying key retention drivers and developing an actionable risk segmentation framework.
 
-## 📊 Project Overview
+## Project Overview
 
 **Business Problem:** Telecom company experiencing 26.5% customer churn rate, representing $1.67M in annual revenue loss. Leadership needs to understand churn drivers and prioritize retention efforts.
 
 **Solution:** End-to-end data analysis delivering predictive insights, customer behavioral profiling, and a rule-based risk scoring system to identify high-risk customers for targeted retention campaigns.
 
-## 🎯 Key Findings
+## Key Findings
 
 - **Contract type** is the dominant churn predictor (month-to-month customers churn at 42.7% vs 2.8% for two-year)
 - **First 12 months** are critical (47.4% churn vs 17.1% after year one)
 - **Value perception gap**: High-paying customers with low service adoption churn at 57.8%
 - **Risk framework** identifies 2,598 high-risk customers representing $100K+ monthly revenue exposure
 
-## 🚀 Interactive Dashboard
+## Interactive Dashboard
 
-**[Launch Live Demo →](https://YOUR-APP-NAME.streamlit.app)** *(Coming Soon)*
+**[Launch Live Demo →](https://huggingface.co/spaces/gg-dever/telco-churn-dashboard)**
 
 Experience the analysis interactively! The Streamlit dashboard includes:
 
-- **📊 Overview**: Real-time metrics and key visualizations
-- **🎯 Risk Analyzer**: Filter customers by risk profile with dynamic charts
-- **🔮 Churn Predictor**: Enter customer details to predict churn risk
-- **💰 ROI Calculator**: Model retention campaign impact and financial projections
+- **Overview**: Real-time metrics and key visualizations
+- **Risk Analyzer**: Filter customers by risk profile with dynamic charts
+- **Churn Predictor**: Enter customer details to predict churn risk
+- **ROI Calculator**: Model retention campaign impact and financial projections
 
 To run locally:
 ```bash
@@ -33,7 +32,7 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-## � Sample Visualizations
+## Sample Visualizations
 
 ### Contract Type Impact on Churn
 ![Contract Churn Analysis](images/contract_churn_comparison.png)
@@ -47,7 +46,7 @@ streamlit run streamlit_app.py
 ![Risk Tier Validation](images/risk_tier_validation.png)
 *Framework successfully separates customers into distinct risk tiers with 5.4% to 62.9% churn range*
 
-## �📁 Repository Structure
+## Repository Structure
 
 ```
 da_project_1/
@@ -65,14 +64,14 @@ da_project_1/
 │   └── charts/                            # All executive-ready visualizations
 ├── .streamlit/
 │   └── config.toml                        # Streamlit theme configuration
-├── streamlit_app.py                       # 🚀 Interactive dashboard
+├── streamlit_app.py                       # Interactive dashboard
 ├── requirements.txt                       # Python dependencies
 ├── INTERVIEW_PREP.md                      # Talking points and Q&A prep
 ├── PROJECT_SUMMARY.md                     # One-page project overview
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Recommended Reading Order:
 
@@ -92,7 +91,7 @@ da_project_1/
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-## 🔍 Analysis Highlights
+## Analysis Highlights
 
 ### 1. Predictive Modeling
 - Logistic Regression with class balancing
@@ -117,14 +116,14 @@ pip install pandas numpy matplotlib seaborn scikit-learn
   - Moderate Risk: 21.6% churn rate
   - Low Risk: 5.4% churn rate
 
-## 📈 Deliverables
+## Deliverables
 
 1. **High-Risk Customer List** - 2,598 customers prioritized for retention outreach
 2. **Executive Visualizations** - Publication-ready charts for stakeholder presentation
 3. **Actionable Recommendations** - Specific retention strategies with estimated ROI
 4. **Reproducible Analysis** - Fully documented code and methodology
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Data Processing:** Pandas, NumPy
 - **Visualization:** Matplotlib, Seaborn, Plotly (interactive)
@@ -132,7 +131,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 - **Dashboard:** Streamlit
 - **Database:** SQLite for query validation
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 **High Priority:**
 - Contract conversion campaigns for month-to-month customers with Risk Score ≥6
@@ -142,7 +141,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 **Medium Priority:**
 - Bundle promotions for high-cost, low-service customers (dual retention + upsell)
 
-## 📝 About This Project
+## About This Project
 
 This analysis demonstrates:
 - Business-focused analytical thinking
@@ -151,15 +150,11 @@ This analysis demonstrates:
 - Translating technical insights into executive communication
 - Delivering actionable recommendations with quantified impact
 
-## 📚 Dataset
+## Dataset
 
 [Telco Customer Churn Dataset on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ---
 
-**Status:** ✅ Complete - Available for review
+**Status:** Complete - Available for review  
 **Last Updated:** March 2026
-=======
-# telco-churn-dashboard
-A dashboard for the telco churn analysis
->>>>>>> 681ba6a5695dc4dbec4f239543d7bd91c7c58da9
