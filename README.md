@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Telco Customer Churn Analysis
 
 A comprehensive analysis of telecom customer churn, identifying key retention drivers and developing an actionable risk segmentation framework.
@@ -158,3 +159,7 @@ This analysis demonstrates:
 
 **Status:** ✅ Complete - Available for review
 **Last Updated:** March 2026
+=======
+# telco-churn-dashboard
+A dashboard for the telco churn analysis
+>>>>>>> 681ba6a5695dc4dbec4f239543d7bd91c7c58da9

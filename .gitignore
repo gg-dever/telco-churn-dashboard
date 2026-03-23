@@ -50,3 +50,4 @@ notebooks/extract_review.py
 notebooks/*_review.html
 notebooks/*_simplified.html
 notebooks/Analysis of data columns to identify ind
+images/
