@@ -17,7 +17,7 @@ A comprehensive analysis of telecom customer churn, identifying key retention dr
 
 ## Interactive Dashboard
 
-**[Launch Live Demo →](https://huggingface.co/spaces/gg-dever/telco-churn-dashboard)**
+**[Launch Live Demo →](https://telco-churn-dashboard-link.streamlit.app)**
 
 Experience the analysis interactively! The Streamlit dashboard includes:
 
